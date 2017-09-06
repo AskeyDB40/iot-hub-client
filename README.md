@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 services: iot-hub
 platforms: C
