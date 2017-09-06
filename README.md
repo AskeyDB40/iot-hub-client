@@ -16,21 +16,6 @@ This repo contains an arduino application that runs on Raspberry Pi 3 with a CC2
 ### Enable SSH on your Pi
 Follow [this page](https://www.raspberrypi.org/documentation/remote-access/ssh/) to enable SSH on your Pi.
 
-### Enable SPI on your Pi
-Follow [this page](https://www.raspberrypi.org/documentation/configuration/raspi-config.md) to enable SPI on your Pi
-
-## Connect your sensor with your Pi
-### Connect with a physical BEM280 sensor and LED
-You can follow the image to connect your BME280 and a LED with your Raspberry Pi 3.
-
-![BME280](https://docs.microsoft.com/en-us/azure/iot-hub/media/iot-hub-raspberry-pi-kit-c-get-started/3_raspberry-pi-sensor-connection.png)
-
-### DON'T HAVE A PHYSICAL BME280?
-You can use the application to simulate temperature&humidity data and send to your IoT hub.
-1. Open the `config.h` file.
-2. Change the `SIMULATED_DATA` value from `0` to `1`.
-
-
 ## Running this sample
 ### Install Azure IoT SDK
 Install all packages by the following command:
