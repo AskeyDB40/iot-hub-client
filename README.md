@@ -39,13 +39,3 @@ Run the client application with root priviledge, and you also need provide your 
 ```bash
 sudo ./a.out 'HostName=shuyikai.azure-devices.net;DeviceId=Raspberrypi_01;SharedAccessKey=A8067zclqd8mVtYMfDFcDMyHkv2VSM2klZIPpVqCums='
 ```
-
-### Send Cloud-to-Device command
-You can send a C2D message to your device. You can see the device prints out the message and blinks once receiving the message.
-
-### Send Device Method command
-You can send `start` or `stop` device method command to your Pi to start/stop sending message to your IoT hub.
-=======
-# iot-hub-client
-receive data from bluetooth upload to cloud
->>>>>>> ca06968e288197af8072396202b2510a7ebec40e
